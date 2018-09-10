@@ -12,15 +12,29 @@ header {
     background-image: url("landing1.jpg");
     background-size: 100% 100%;
 }
+a {
+    color: bisque;
+    text-decoration: none;
+    text-align: center;
+}
 
-navbar{
+/*so the next two lines aren't necessary however I added them to help me identify what link I was clicking on */
+a:link, a:visited {
+    background-color: none;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+}
 
+a:hover, a:active {
+    background-color: olivedrab;
+    opacity:;
 }
 
 .nav {
     display: grid;
     grid-template-columns: 130px 180px 140px 220px;
-    grid-template-rows: 35px;
+    grid-template-rows: 45px;
     grid-column-gap: 0px;
     grid-template-areas: "nav nav nav nav";
 }
