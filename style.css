@@ -1,11 +1,33 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+body {
+    margin:0;
 }
 
 header {
     width: auto;
-    height: 300px;
-    background-image: landing.jpg;
+    height: 600px;
+    background-image: url("landing1.jpg");
+    background-size: 100% 100%;
+}
+
+navbar{
+
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 130px 180px 140px 220px;
+    grid-template-rows: 35px;
+    grid-column-gap: 0px;
+    grid-template-areas: "nav nav nav nav";
+}
+
+.nav  {
+    margin-top: 0;
+    list-style: none;
+    color: bisque;
+    font-size: 40px;
 }
