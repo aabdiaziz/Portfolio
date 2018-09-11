@@ -6,12 +6,6 @@ body {
     margin:0;
 }
 
-h1 {
-    width: auto;
-    color: bisque;
-}
-
-
 header {
     width: auto;
     height: 600px;
@@ -50,55 +44,4 @@ a:hover, a:active {
     list-style: none;
     color: bisque;
     font-size: 40px;
-}
-
-@media screen and (min-width: 500px) {
-    #nav {
-        transition: transform 2s ease-in-out;
-        top: 0;
-        bottom: 0;
-        position: fixed;
-        width: 300px;
-        right: -340px;
-    }
-
-    #nav:target {
-        transform: translateX(-340px);
-    }
-
-    .close {
-        text-align: right;
-        display: block;
-        text-decoration: none;
-        font-size: 3em;
-        position: relative;
-        top: -30px;
-    }
-
-    .open {
-        text-align: left;
-    }
-
-    .landing-page {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .fullstackimg {
-        width: 220px;
-    }
-
-    .landingbtn {
-        background-color: transparent;
-        border: 3px bisque solid;
-        width: 200px;
-        color: bisque;
-        font-size: 20px;
-    }
-
-}
-
-@media only screen and (min-width: 768px) {
-
 }
