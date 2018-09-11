@@ -8,7 +8,7 @@ body {
 
 h1 {
     width: auto;
-    color: bisque;
+    color: white;
 }
 
 
@@ -19,7 +19,7 @@ header {
     background-size: 100% 100%;
 }
 a {
-    color: bisque;
+    color: white;
     text-decoration: none;
     text-align: center;
     border-bottom: 3px;
@@ -27,7 +27,7 @@ a {
 
 /*so the next two lines aren't necessary however I added them to help me identify what link I was clicking on */
 a:link {
-    color: bisque;
+    color: white;
     text-align: center;
     text-decoration: none;
 }
@@ -38,38 +38,103 @@ a:hover, a:active {
 }
 
 #nav {
-    display: grid;
-    grid-template-columns: 80px 130px 190px 160px 220px;
-    grid-column-gap: 0px;
-    grid-template-areas: "nav nav nav nav";
-}
-
-#nav  {
+    display: flex;
+    flex-direction: row;
     margin-top: 0;
     list-style: none;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
+    position: fixed;
+    z-index: 10;
+}
+
+li a {
+    margin-right: 20px;
 }
 
 .landing-page {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .landingbtn {
+    transition: 0.5s ease-in-out;
     background-color: transparent;
-    border: 3px bisque solid;
-    width: 200px;
-    color: bisque;
+    border: 3px white solid;
+    height: 50px;
+    width: 300px;
+    color: white;
     font-size: 20px;
+    border-radius: 5px;
+}
+
+.landingbtn:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 25px;
+
 }
 
 .toggle {
     display: none;
 }
 
-@media screen and (max-width: 730px) {
+.burger {
+    width: 20px;
+    position: sticky;
+    background-color: bisque;
+}
+
+.socials {
+    width: 100px;
+    height: 20px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.imgsocial {
+    width: 20px;
+    margin-right: 20px;
+
+}
+
+.aboutContent {
+    height: 200px;
+    width:auto;
+    border: 2px black solid;
+    background-color: olivedrab;
+    opacity: 0.5;
+}
+
+.content {
+    height: 60px;
+    width: 60px;
+    border-color: bisque;
+}
+
+.projects {
+    height: 500px;
+    width:auto;
+    border: 2px black solid;
+    background-color: olive;
+    opacity: 0.5;
+}
+
+.footer {
+    height: 50px;
+    width: auto;
+    background-color: grey;
+}
+
+h2 {
+    margin: 0px;
+}
+
+@media screen and (max-width: 1000px) {
     #nav {
         display: inline;
         transition: transform 1s ease-in-out;
@@ -78,7 +143,7 @@ a:hover, a:active {
         position: fixed;
         width: 300px;
         left: -340px;
-        background-color: olivedrab;
+        background-color: white;
     }
 
     #nav:target {
@@ -114,10 +179,8 @@ a:hover, a:active {
         margin-bottom: 20px;
     }
 
-}
-
-@media only screen and (min-width: 750px) {
-    h1 {
-        color: red;
+    li a {
+        color: bisque;
     }
+
 }
