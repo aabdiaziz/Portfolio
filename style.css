@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+h1 {
+    width: auto;
+    color: white;
+}
+
+
+header {
+    width: auto;
+    height: 600px;
+    background-image: url("images/landing-bad.jpg");
+    background-size: cover;
+    background-position: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 3px;
+}
+
+/*so the next two lines aren't necessary however I added them to help me identify what link I was clicking on */
+
+navbar ul li a:hover {
+    border-bottom: 3px bisque solid;
+}
+
+navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    display: inline;
+    overflow: auto;
+}
+
+#nav {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+li a {
+    margin-right: 20px;
+}
+
+.landing-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 20px;
+}
+
+.landingbtn {
+    transition: 0.5s ease-in-out;
+    background-color: transparent;
+    border: 3px white solid;
+    height: 50px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.landingbtn:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.toggle {
+    display: none;
+}
+
+.burger {
+    width: 20px;
+}
+
+.socials {
+    height: 30px;
+    display: flex;
+    float: right;
+}
+
+.imgsocial {
+    width: 30px;
+    margin-right: 20px;
+    -webkit-filter: grayscale (100%);
+}
+
+.aboutContent {
+    height: 200px;
+    width:auto;
+    border: 2px black solid;
+    background-color: rgba(67,33,33,0.45);
+    opacity: 0.5;
+    overflow:hidden;
+    height:1%;
+}
+
+.content {
+    height: auto;
+    width: 80vw;
+    border-color: bisque;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.projects {
+    height: 500px;
+    width:auto;
+    border: 2px black solid;
+    background-color: olive;
+    opacity: 0.5;
+}
+
+.footer {
+    height: 50px;
+    width: auto;
+    background-color: grey;
+}
+
+.socialLinks:hover {
+    border
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0px;
+    float: left;
+}
+
+@media screen and (max-width: 1000px) {
+    #nav {
+        display: inline;
+        transition: transform 1s ease-in-out;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        width: 300px;
+        height: 200px;
+        left: -340px;
+        background-color: rgba(255,255,255,0.8);
+    }
+
+    #nav:target {
+        transform: translateX(340px);
+    }
+
+    .close {
+        display: block;
+        font-size: 40px;
+        border: 3px bisque solid;
+    }
+
+    .open {
+        font-size: 20px;
+        display: inline;
+        position: sticky;
+    }
+
+    .fullstackimg {
+        width: 220px;
+    }
+
+    li:hover, li:active {
+        border-bottom: 0px bisque solid;
+
+    }
+
+    li a {
+        color: white;
+    }
+
+}
