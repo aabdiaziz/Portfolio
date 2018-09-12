@@ -106,14 +106,20 @@ li a {
     height: 200px;
     width:auto;
     border: 2px black solid;
-    background-color: olivedrab;
+    background-color: rgba(67,33,33,0.45);
     opacity: 0.5;
+    overflow:hidden;
+    height:1%;
 }
 
 .content {
-    height: 60px;
-    width: 60px;
+    height: auto;
+    width: 80vw;
     border-color: bisque;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    font-family: 'Pacifico', cursive;
 }
 
 .projects {
@@ -152,7 +158,7 @@ h2 {
         width: 300px;
         height: 200px;
         left: -340px;
-        background-color: white;
+        background-color: rgba(255,255,255,0.8);
     }
 
     #nav:target {
@@ -181,7 +187,7 @@ h2 {
     }
 
     li a {
-        color: bisque;
+        color: white;
     }
 
 }
