@@ -116,7 +116,7 @@ li a {
 .imgsocial {
     width: 30px;
     margin-right: 20px;
-    -webkit-filter: grayscale (100%);
+
 }
 
 .aboutContent {
@@ -140,11 +140,21 @@ li a {
 }
 
 .projects {
-    height: 500px;
-    width:auto;
+    height: 900px;
+    width: auto;
     border: 2px black solid;
+    background-color: bisque;
+}
+
+.insideProjects {
+    height: 900px;
+    width: 90vw;
+    margin: 0 auto;
     background-color: white;
-    opacity: 0.5;
+}
+
+.content {
+
 }
 
 .footer {
@@ -154,7 +164,7 @@ li a {
 }
 
 .socialLinks:hover {
-    border
+    border:;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -175,7 +185,7 @@ h2 {
         width: 300px;
         height: 200px;
         left: -340px;
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(178,51,41,0.78);
     }
 
     #nav:target {
