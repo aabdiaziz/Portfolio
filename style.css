@@ -162,7 +162,13 @@ li a {
 }
 
 .creepyPanda {
-    background-image: url("https://tinypng.com/images/social/website.jpg");
+    background-image: url("images/pilotshop.png");
+    background-size: cover;
+    height: 300px;
+}
+
+.htmlProject {
+    background-image: url("images/htmlProject.png");
     background-size: cover;
     height: 300px;
 }
@@ -183,6 +189,31 @@ li a {
 h2 {
     margin: 0px;
     float: left;
+}
+
+.titleProjects {
+    font-size: 40px;
+    margin: 0 auto;
+    color: #c15b5b;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+.contactMe {
+    height: 300px;
+}
+
+.contactContainer {
+    height: 200px;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.contact {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -227,6 +258,14 @@ h2 {
         color: white;
     }
 
+    .header {
+        width: 1000px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-height: 1000px)  {
@@ -242,7 +281,5 @@ h2 {
 }
 
 @media screen and (min-width: 1300px) {
-    .projects {
-        height: 1000px;
-    }
+
 }
