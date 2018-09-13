@@ -140,21 +140,27 @@ li a {
 }
 
 .projects {
-    height: 900px;
+    height: 1000px;
     width: auto;
     border: 2px black solid;
     background-color: bisque;
+    overflow: auto;
 }
 
-.insideProjects {
+.cards {
     height: 900px;
     width: 90vw;
     margin: 0 auto;
+    margin-top: 40px;
     background-color: white;
 }
 
-.content {
-
+.card {
+    padding: 20px;
+    height: 40px;
+    background-color: #c15b5b;
+    float: left;
+    width: 50%;
 }
 
 .footer {
