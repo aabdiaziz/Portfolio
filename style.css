@@ -159,10 +159,23 @@ li a {
     background-color: #c15b5b;
     float: left;
     width: 50%;
+    color: white;
 }
 
 .creepyPanda {
     background-image: url("https://tinypng.com/images/social/website.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+.htmlProject {
+    background-image: url("images/htmlcss.png");
+    background-size: cover;
+    height: 300px;
+}
+
+.pilotShop {
+    background-image: url("images/pilot.png");
     background-size: cover;
     height: 300px;
 }
@@ -185,8 +198,7 @@ h2 {
     float: left;
 }
 
-<<<<<<< Updated upstream
-=======
+
 .titleProjects {
     font-size: 40px;
     margin: 0 auto;
@@ -200,7 +212,6 @@ h2 {
 }
 
 .contactContainer {
-    height: 200px;
     width: 40vw;
     margin: 0 auto;
 }
@@ -228,7 +239,6 @@ h2 {
 
 }
 
->>>>>>> Stashed changes
 @media screen and (max-width: 1000px) {
     #nav {
         display: inline;
@@ -270,7 +280,12 @@ h2 {
     li a {
         color: white;
     }
-
+    .header {
+        width: 1000px;
+    }
+    .card {
+        width: 100%;
+    }
 }
 
 @media screen and (min-height: 1000px)  {
@@ -285,8 +300,3 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1300px) {
-    .projects {
-        height: 1000px;
-    }
-}
