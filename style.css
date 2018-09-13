@@ -140,7 +140,6 @@ li a {
 }
 
 .projects {
-    height: 1000px;
     width: auto;
     border: 2px black solid;
     background-color: bisque;
@@ -157,10 +156,15 @@ li a {
 
 .card {
     padding: 20px;
-    height: 40px;
     background-color: #c15b5b;
     float: left;
     width: 50%;
+}
+
+.creepyPanda {
+    background-image: url("https://tinypng.com/images/social/website.jpg");
+    background-size: cover;
+    height: 300px;
 }
 
 .footer {
@@ -239,6 +243,6 @@ h2 {
 
 @media screen and (min-width: 1300px) {
     .projects {
-        height: 700px;
+        height: 1000px;
     }
 }
