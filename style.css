@@ -185,6 +185,50 @@ h2 {
     float: left;
 }
 
+<<<<<<< Updated upstream
+=======
+.titleProjects {
+    font-size: 40px;
+    margin: 0 auto;
+    color: #c15b5b;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+.contactMe {
+    height: 500px;
+}
+
+.contactContainer {
+    height: 200px;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.contact {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.contactSub {
+    transition: 0.5s ease-in-out;
+    border: 3px #c15b5b solid;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.contactSub:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 25px;
+
+}
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 1000px) {
     #nav {
         display: inline;
