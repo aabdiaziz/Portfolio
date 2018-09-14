@@ -121,7 +121,6 @@ li a {
 
 .aboutContent {
     width:auto;
-    border: 2px black solid;
     background-color: rgba(67,33,33,0.45);
     opacity: 0.5;
     overflow:hidden;
@@ -132,7 +131,6 @@ li a {
 .content {
     height: auto;
     width: 80vw;
-    border-color: bisque;
     margin: 0 auto;
     overflow: hidden;
     color: white;
@@ -141,7 +139,6 @@ li a {
 
 .projects {
     width: auto;
-    border: 2px black solid;
     background-color: bisque;
     overflow: auto;
 }
@@ -187,7 +184,6 @@ li a {
 }
 
 .socialLinks:hover {
-    border:;
     color: white;
     text-align: center;
     text-decoration: none;
