@@ -32,13 +32,14 @@ function fetchData($db) {
     * @return returns the value in a string format.
     *
     */
-    function fetchContent(array $results):string{
-        if(array_key_exists('content', $results)){
-            return $results["content"];
-        } else {
-            return 'error';
-        }
+
+function fetchContent(array $results):string{
+    if(array_key_exists('content', $results)){
+        return $results["content"];
+    } else {
+        return 'error';
     }
+}
     /*
     * This Function takes the results and outputs the title field in the database.
     *
@@ -50,19 +51,17 @@ function fetchData($db) {
     */
 
 function fetchTitle(array $results):string {
-    $title = $results["title_of_content"];
-    return $title;
+    if(array_key_exists('title_of_content', $results)){
+        return $results["title_of_content"];
+    } else {
+        return 'error';
+    }
 }
+
 
 $content =  fetchContent(fetchData($db));
 $title = fetchTitle(fetchData($db));
 
-//if(isset($results)){
-//    function fetchContent(array $results):string{
-//        return $results["content"];
-//    }} else{
-//    echo 'Error No data input';
-//}
 
 
 
