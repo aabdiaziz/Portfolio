@@ -1,8 +1,8 @@
 <?php
-require('php/admin.php');
+
+require 'php/aboutMe.php';
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,8 +47,8 @@ require('php/admin.php');
 
         <div class="aboutContent" id="About">
             <div class="content">
-                <h1>About Me</h1>
-                <p> <?php echo $content; ?> </p>
+                <h1><?php echo $title ?></h1>
+                <p><?php echo $content ?></p>
             </div>
         </div>
 
