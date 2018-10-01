@@ -47,8 +47,8 @@ require 'php/aboutMe.php';
 
         <div class="aboutContent" id="About">
             <div class="content">
-                <h1><?php echo $title ?></h1>
-                <p><?php echo $content ?></p>
+                <h1><?php echo $title; ?></h1>
+                <p><?php echo $content; ?></p>
             </div>
         </div>
 
