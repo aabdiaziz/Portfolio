@@ -1,3 +1,8 @@
+<?php
+
+require 'php/aboutMe.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,8 +47,8 @@
 
         <div class="aboutContent" id="About">
             <div class="content">
-                <h1>About Me</h1>
-                <p>HI, My name is Abdi. I have been Studying at university for 2 years previously, to joining Mayden Academy as a junior full stack developer. My growth during this course has sky rocketed  </p>
+                <h1><?php echo $title; ?></h1>
+                <p><?php echo $content; ?></p>
             </div>
         </div>
 
