@@ -1,6 +1,6 @@
 <?php
 
-require 'php/aboutMe.php';
+require_once 'php/aboutMe.php';
 
 ?>
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ require 'php/aboutMe.php';
             </div>
         </div>
 
-        <div class="contactMe" id="#contactInfo">
+        <div class="contactMe" id="contactInfo">
             <div class="content">
                 <div class="contactContainer">
                     <p class="titleProjects">Contact me</p>
