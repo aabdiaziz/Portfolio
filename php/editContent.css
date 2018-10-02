@@ -1,0 +1,30 @@
+body {
+     margin:0;
+     font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+
+ }
+
+.content {
+    height: auto;
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    color: black;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+.formContent {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+
+.aboutContent {
+    width: 500px;
+    height: 90px;
+}
+
+.updateBtn {
+    margin-top: 60px;
+    height: 90px;
+    width: 400px;
+}
