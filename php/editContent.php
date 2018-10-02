@@ -2,8 +2,9 @@
 
 require 'aboutMe.php';
 
-$name = $_POST['title'];
-$newContent = $_POST['content'];
+
+
+$db = new PDO('mysql:host=127.0.0.1;dbname=Portfolio','root');
 
 
 ?>
@@ -17,30 +18,17 @@ $newContent = $_POST['content'];
 </head>
 <body>
 <div class="content">
-    <div class="currentState">
-        <h1>Current State <br><?php echo $title; ?></h1>
-        <p><?php echo $content; ?></p>
-    </div>
-
-    <form action="#" method="post" class="formContent">
-        Edit Title      <input type="text" name="title" class="titleContent"><br>
-        Edit Content  <input type="text" name="content" class="aboutContent"><br>
-        View how it looks:<input type="submit">
+    <h1>Edit About Me</h1>
+    <form action="updateContent.php" method="post" class="formContent">
+        Edit Title      <input type="text" name="title" class="titleContent" value="<?php echo $title; ?>"><br>
+        Edit Content  <input type="text" name="content" class="aboutContent" value="<?php echo $content; ?>"><br>
+        View how it looks:<input type="submit" class="updateBtn" value="Update">
         <br>
         <br>
         <br>
     </form>
 
-    <div class="view">
-        <h1>Viewing State <br></h1>
-        <?php
-        echo 'title:   '.$name;
-        echo '<br>';
-        echo 'content:   '.$newContent;
-        ?>
-    </div>
 
-    <input type="submit" class="updateBtn" value="Update">
 
 </div>
 </body>
