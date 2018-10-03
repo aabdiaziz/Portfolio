@@ -1,6 +1,7 @@
 <?php
 
 require_once 'php/aboutMe.php';
+require_once 'php/portfolio.php';
 
 ?>
 <!DOCTYPE html>
@@ -55,34 +56,7 @@ require_once 'php/aboutMe.php';
         <div class="projects" id="projects">
             <p class="titleProjects">Projects</p>
             <div class="cards">
-                <div class="card">
-                    <a href="mini/pilotshop/pilot-shop.html"><div class="pilotShop"></div></a>
-                    Pilot shop
-                </div>
-                <div class="card">
-                    <a href="mini/html+css/helloworld.html"><div class="htmlProject"></div></a>
-                    HTML + CSS Project
-                </div>
-                <div class="card">
-                    <div class="creepyPanda">
-                    </div>
-                    Pilot shop
-                </div>
-                <div class="card">
-                    <div class="creepyPanda">
-                    </div>
-                    Pilot shop
-                </div>
-                <div class="card">
-                    <div class="creepyPanda">
-                    </div>
-                    Pilot shop
-                </div>
-                <div class="card">
-                    <div class="creepyPanda">
-                    </div>
-                    Pilot shop
-                </div>
+                <?php echo $portfolioThing; ?>
             </div>
         </div>
 

@@ -159,23 +159,11 @@ li a {
     color: white;
 }
 
-.creepyPanda {
-    background-image: url("images/pilot.png");
+.item {
     background-size: cover;
     height: 300px;
 }
 
-.htmlProject {
-    background-image: url("images/htmlcss.png");
-    background-size: cover;
-    height: 300px;
-}
-
-.pilotShop {
-    background-image: url("images/pilot.png");
-    background-size: cover;
-    height: 300px;
-}
 
 .footer {
     height: 50px;
