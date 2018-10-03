@@ -1,6 +1,6 @@
 <?php
 
-require('../php/aboutMe.php');
+require_once('../php/aboutMe.php');
 
 use PHPUnit\Framework\TestCase;
 
