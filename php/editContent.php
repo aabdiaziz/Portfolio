@@ -20,9 +20,7 @@ require_once 'aboutMe.php';
         <br>
         Edit Content:  <input type="text" name="content" class="aboutContent" value="<?php echo $content; ?>"><br>
         View how it looks:<input type="submit" class="updateBtn" value="Update">
-        <br>
-        <br>
-        <br>
+
     </form>
 
 
