@@ -28,6 +28,4 @@ function displayPortfolioItems($portfolioItems){
                 '</div>';
     }
     return $result;
-
-
 }
