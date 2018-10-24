@@ -56,7 +56,7 @@ require_once 'php/aboutMe.php';
             <p class="titleProjects">Projects</p>
             <div class="cards">
                 <div class="card">
-                    <a href="mini/pilotshop/pilot-shop.html"><div class="pilotShop"></div></a>
+                    <a href="https://dev.maydenacademy.co.uk/students/2018/abdi/Pilot-Shop/"><div class="pilotShop"></div></a>
                     Pilot shop
                 </div>
                 <div class="card">
@@ -64,9 +64,8 @@ require_once 'php/aboutMe.php';
                     HTML + CSS Project
                 </div>
                 <div class="card">
-                    <div class="creepyPanda">
-                    </div>
-                    Pilot shop
+                    <a href="https://dev.maydenacademy.co.uk/projects/2018Aug/2018-running-game/"><div class="jsGame"></div></a>
+                    JavaScript Game
                 </div>
                 <div class="card">
                     <div class="creepyPanda">

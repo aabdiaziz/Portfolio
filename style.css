@@ -177,6 +177,12 @@ li a {
     height: 300px;
 }
 
+.jsGame {
+    background-image: url("images/jsGame.png");
+    background-size: cover;
+    height: 300px;
+}
+
 .footer {
     height: 50px;
     width: auto;
