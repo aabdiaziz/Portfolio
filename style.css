@@ -228,6 +228,15 @@ h2 {
     padding-top: 50px;
 }
 
+.contactDetails {
+    font-size: 30px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: bisque;
+    color: #c15b5b;
+    padding-top: 50px;
+}
+
 .contactMe {
     height: 500px;
 }
