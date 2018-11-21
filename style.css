@@ -144,7 +144,7 @@ li a {
 }
 
 .cards {
-    height: 900px;
+    height: 1000px;
     width: 90vw;
     margin: 0 auto;
     margin-top: 40px;
@@ -173,6 +173,31 @@ li a {
 
 .pilotShop {
     background-image: url("images/pilot.png");
+    background-size: cover;
+    height: 300px;
+}
+
+.solarSystem {
+    background-image: url("images/solar.png");
+    background-size: cover;
+    height: 300px;
+    margin-bottom:21px ;
+}
+
+.pumpkin {
+    background-image: url("images/PumpkinDash.png");
+    background-size: cover;
+    height: 300px;
+}
+
+.pokedex {
+    background-image: url("images/Pokedex.png");
+    background-size: cover;
+    height: 300px;
+}
+
+.aptitude {
+    background-image: url("images/Aptitude.png");
     background-size: cover;
     height: 300px;
 }
