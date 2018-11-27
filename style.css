@@ -159,10 +159,9 @@ li a {
     color: white;
 }
 
-.creepyPanda {
-    background-image: url("images/pilot.png");
-    background-size: cover;
-    height: 300px;
+.aptitudeCard {
+    margin-top: -410px;
+    margin-bottom: 40px;
 }
 
 .htmlProject {
